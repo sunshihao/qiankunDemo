@@ -45,7 +45,7 @@ function render(props = {}) {
   }).$mount(container ? container.querySelector('#app') : '#app');
 }
 
-console.log('环境判定！！！', window.__POWERED_BY_QIANKUN__)
+console.log('环境判定！！！', !window.__POWERED_BY_QIANKUN__)
 
 // 独立运行时
 if (!window.__POWERED_BY_QIANKUN__) {

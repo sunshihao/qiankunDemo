@@ -7,6 +7,6 @@ module.exports = {
     },
     prod: {
         outputPath: path.resolve(__dirname, '../dist/assets'),
-        outputPublicPath: '/assets/'
+        outputPublicPath: '/app-vue/'
     }
 }

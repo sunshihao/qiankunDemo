@@ -3,6 +3,7 @@
         <div class="nav">
             <router-link to="/" exact>Home</router-link>
             <router-link to="/css">支持css</router-link>
+            <router-link to="/in/css">IN支持css</router-link>
             <router-link to="/stylus">支持stylus</router-link>
             <router-link to="/less">支持less</router-link>
             <router-link to="/sass">支持sass</router-link>
