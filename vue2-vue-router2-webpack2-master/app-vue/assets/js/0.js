@@ -1,0 +1,1 @@
+webpackJsonp_undefined([0],{38:function(e,n){},39:function(e,n,t){"use strict";function s(e){t(38)}Object.defineProperty(n,"__esModule",{value:!0});var u=function(){var e=this,n=e.$createElement;return(e._self._c||n)("div",{staticClass:"async"},[e._v("\n    这是一个异步组件\n")])},c=[],l={render:u,staticRenderFns:c},r=l,i=t(0),a=s,d=i(null,r,!1,a,null,null);n.default=d.exports}});

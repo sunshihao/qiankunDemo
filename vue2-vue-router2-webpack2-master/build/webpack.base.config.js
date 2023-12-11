@@ -3,6 +3,8 @@ var path = require('path');
 var utils = require('./utils');
 // const { name } = require('..package.json');
 
+const { name } = "app-vue-qk";
+
 
 function resolve(relPath) {
     return path.resolve(__dirname, relPath);
@@ -13,11 +15,11 @@ module.exports = {
         index: resolve('../src/main.js'),
     },
     output: {
-        filename: 'js/[name].js',
-        chunkFilename: "js/[name].[chunkhash].js"
-        // library: `${name}-[name]`,
-        // libraryTarget: 'umd', // 把微应用打包成 umd 库格式
-        // jsonpFunction: `webpackJsonp_${name}`, // webpack 5 需要把 jsonpFunction 替换成 chunkLoadingGlobal
+        // filename: 'js/[name].js',
+        // chunkFilename: "js/[name].[chunkhash].js"
+        library: `${name}-[name]`,
+        libraryTarget: 'umd', // 把微应用打包成 umd 库格式
+        jsonpFunction: `webpackJsonp_${name}`, // webpack 5 需要把 jsonpFunction 替换成 chunkLoadingGlobal
     },
     resolve: {
         extensions: ['.js', '.vue', '.json'],

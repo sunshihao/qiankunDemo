@@ -6,7 +6,7 @@ module.exports = {
         port: 8090
     },
     prod: {
-        outputPath: path.resolve(__dirname, '../dist/assets'),
-        outputPublicPath: '/app-vue/'
+        outputPath: path.resolve(__dirname, '../app-vue/assets'),
+        outputPublicPath: '/app-vue/assets/'
     }
 }
