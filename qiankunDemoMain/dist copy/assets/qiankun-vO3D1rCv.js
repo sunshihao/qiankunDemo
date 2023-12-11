@@ -1,0 +1,1 @@
+import{d as e,b as t,s as a,o as n,c as o,a as s}from"./index-KxHANWoQ.js";const i=s("div",{id:"child",class:"about"}," 111 ",-1),d=[i],l=e({__name:"qiankun",setup(r){return t(()=>{window.qiankunStarted||(window.qiankunStarted=!0,a({sandbox:{experimentalStyleIsolation:!0}}))}),(c,u)=>(n(),o("div",null,d))}});export{l as default};
