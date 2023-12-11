@@ -1,19 +1,40 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink, RouterView,useRouter } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+
+const router = useRouter();
+
+const moniRoute = (url: string) => {
+  // window.history.pushState(
+  //   history.state,
+  //   '',
+  //   url
+  // );
+
+  router.push({ path: url, replace: true })
+
+}
 
 </script>
 
 <template>
   <header>
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-    
+
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
       <nav>
+
+        <div @click="moniRoute('/')">Home1</div>
+        <div @click="moniRoute('/about')">About1</div>
+        <div @click="moniRoute('/app-vue-qk')">Qiankun1</div>
+
+
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/app-vue-qk">Qiankun</RouterLink>
+
+         
       </nav>
     </div>
   </header>

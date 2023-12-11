@@ -19,9 +19,8 @@ app.use(router)
 registerMicroApps([
     {
         name: 'app-vue-qk',
-        // entry: '//localhost:8090', // 成功
-        // entry: '//127.0.0.1:8077/app-vue/',
-        entry: '/app-vue/',
+        entry: '//localhost:8090', // 成功
+        // entry: '/app-vue/', // 成功
         container: '#child',
         activeRule: '/app-vue-qk',
         props: {
