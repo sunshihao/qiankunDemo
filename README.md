@@ -8,6 +8,7 @@
 * qiankunDemoMain/dist copy 为整合打版后产物，可nginx配置后看效果
 
 主应用 node >= 16 +
+
 微应用 12 + <= node <= 13 ( 同官方示例版本 )
 
 1. 运行
