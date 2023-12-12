@@ -15,8 +15,8 @@ import { start } from 'qiankun'
 onMounted(() => {
   // 启动 qiankun
 
-  if (!window.qiankunStarted) {
-    window.qiankunStarted = true;
+  // if (!window.qiankunStarted) {
+    // window.qiankunStarted = true;
     start(
       {
         sandbox: {
@@ -24,7 +24,7 @@ onMounted(() => {
         }
       }
     );
-  }
+  // }
 
 
 })
