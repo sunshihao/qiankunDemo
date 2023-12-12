@@ -9,6 +9,7 @@
 * vue2-vue-router2-webpack2-master 为微应用
 
 主应用 node >= 16 +
+
 微应用 12 + <= node <= 13 ( 同官方示例版本 )
 
 1. 运行
